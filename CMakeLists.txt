@@ -3,4 +3,8 @@ project(chess_slave)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(chess_slave main.cpp)
+add_executable(chess_slave 
+    main.cpp
+    Board.cpp
+    BoardVisualizer.cpp
+)
